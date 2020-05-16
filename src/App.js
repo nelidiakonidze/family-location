@@ -1,14 +1,20 @@
 import React from "react";
 import "./App.css";
-import Dashboard from './Dashboard/Dashboard';
-import Map from './Map/Map';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Dashboard from "./Dashboard/Dashboard";
+import Map from "./Map/Map";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <Route path="/Family" component={Dashboard} />
-      <Route path="/Family-address" component={Map}/>
+      <Switch>
+        <Route path="/family-address/:id">
+          <Map />
+        </Route>
+        <Route path="/">
+          <Dashboard />
+        </Route>
+      </Switch>
     </Router>
   );
 }

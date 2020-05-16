@@ -1,32 +1,44 @@
-[
-  {
-    "names": "Gocha & Marina",
-    "address": "Carrer de Martí i Julià, 2, Manresa",
-    "postcode": 08242,
-    "country": "Spain"
-  },
-  {
-    "names": "Francis & Neli",
-    "address": "Goethestrasse, 26, Berlin",
-    "postcode": 13086,
-    "country": "Germany"
-  },
-  {
-    "names": "Jay & Roberta",
-    "address": "20 Forest Park Place Parklands, Christchurch",
-    "postcode": 8083,
-    "country": "New Zealand"
-  },
-  {
-    "names": "Paul & Lizzie",
-    "address": "224 Salisbury Street, Christchurch",
-    "postcode": 8013,
-    "country": "New Zealand"
-  },
-  {
-    "names": "Tenisia & Tina",
-    "address": "70 Niven Street Avondale, Christchurch ",
-    "postcode": 8061,
-    "country": "New Zealand"
-  }
-]
+{
+  "data": [
+    {
+      "id": 1,
+      "names": "Gocha & Marina",
+      "address": "Carrer de Martí i Julià, 2, Manresa",
+      "postcode": "08242",
+      "country": "Spain",
+      "latLong": "41.726780, 1.820670"
+    },
+    {
+      "id": 2,
+      "names": "Francis & Neli",
+      "address": "Goethestrasse, 26, Berlin",
+      "postcode": "13086",
+      "country": "Germany",
+      "latLong": "52.552000, 13.436830"
+    },
+    {
+      "id": 3,
+      "names": "Jay & Roberta",
+      "address": "20 Forest Park Place Parkl&s, Christchurch",
+      "postcode": "8083",
+      "country": "New Zealand",
+      "latLong": "-43.472450, 172.694720"
+    },
+    {
+      "id": 4,
+      "names": "Paul & Lizzie",
+      "address": "224 Salisbury Street, Christchurch",
+      "postcode": "8013",
+      "country": "New Zealand",
+      "latLong": "-43.524610, 172.643330"
+    },
+    {
+      "id": 5,
+      "names": "Tenisia & Tina",
+      "address": "70 Niven Street Avondale, Christchurch ",
+      "postcode": "8061",
+      "country": "New Zealand",
+      "latLong": "-43.509160, -43.509160"
+    }
+  ]
+}
